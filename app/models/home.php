@@ -3,7 +3,7 @@
 class Model {
 
 	public function __construct () {
-		echo 'I love sushi';
+		echo 'Hello World';
 	}
 	
 }
