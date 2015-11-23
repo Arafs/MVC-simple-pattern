@@ -7,7 +7,7 @@ class Home extends Controller {
 	}
 	
 	public function index () {
-		
+		///app for the index page
 	}
 	 
 }
