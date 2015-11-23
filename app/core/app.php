@@ -6,7 +6,7 @@ class App {
 	protected $params = [];
 	
 	public function __construct () {
-	
+		//This is for our url routing to the controller.
 		$url = $this->parseUrl();
 		if (file_exists('..app\controllers\\'. $url[0] . '.php')) {
 			$this->controller = $url[0];
